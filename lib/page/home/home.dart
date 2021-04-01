@@ -34,7 +34,6 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
             onTap: (){
-              FirebaseCrashlytics.instance.crash();
             },
           ),
         )

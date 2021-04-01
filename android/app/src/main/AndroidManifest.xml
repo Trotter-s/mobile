@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="fr.mds.trotters.trotters_flutter_app">
    <application
-        android:label="trotters_flutter_app"
+        android:label="Trotter's"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

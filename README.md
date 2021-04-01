@@ -1,4 +1,4 @@
-# trotters_flutter_app
+# Trotter's App
 
 Trotter's is a RoadTrip application. Its app is develop with others school (My digital school) members. 
 
