@@ -1,12 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:trotters_flutter_app/utils/colors.dart';
 
+final TrottersColors tc = TrottersColors();
+
 final ThemeData appTheme = ThemeData(
-  accentColor: blue,
+
+  accentColor: tc.green,
   textTheme: textTheme,
 );
 
 final TextTheme textTheme = TextTheme(
-  bodyText1: TextStyle(color: grey, fontSize: 14),
-  headline1: TextStyle(color: darkGrey, fontSize: 16, fontWeight: FontWeight.bold),
+  headline2: TextStyle(color: tc.green, fontSize: 32, fontWeight: FontWeight.bold),
+  bodyText1: TextStyle(color: tc.lighttext, fontSize: 14),
+  headline1: TextStyle(color: tc.green, fontSize: 18, fontWeight: FontWeight.bold),
 );
